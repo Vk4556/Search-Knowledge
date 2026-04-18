@@ -3,56 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Knowledge</title>
+    <title>Search Knowledge | Safe Search</title>
     <style>
-        /* The Professional Design */
         body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #b21f1f, #fdbb2d); 
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #ffffff;
             margin: 0;
-            color: white;
-            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
         }
 
-        .container {
-            background: rgba(255, 255, 255, 0.15); 
-            backdrop-filter: blur(15px); 
-            -webkit-backdrop-filter: blur(15px);
-            padding: 40px;
-            border-radius: 25px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-            width: 85%;
-            max-width: 650px;
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+        /* Colorful Logo style like Kiddle */
+        .logo {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+        .l1 { color: #4285F4; } /* Blue */
+        .l2 { color: #EA4335; } /* Red */
+        .l3 { color: #FBBC05; } /* Yellow */
+        .l4 { color: #4285F4; } /* Blue */
+        .l5 { color: #34A853; } /* Green */
+        .l6 { color: #EA4335; } /* Red */
+
+        .search-wrapper {
+            width: 90%;
+            max-width: 600px;
+            margin-top: 10px;
         }
 
-        h1 { font-size: 2.8rem; margin-bottom: 5px; letter-spacing: 3px; font-weight: 800; text-transform: uppercase; }
-        p { margin-bottom: 35px; opacity: 0.9; }
-
-        /* The Search Bar Box */
-        .gcse-search-wrapper {
-            background: #ffffff;
-            border-radius: 12px;
-            padding: 12px;
-            min-height: 60px;
+        .info-text {
+            color: #70757a;
+            margin-top: 15px;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>SEARCH KNOWLEDGE</h1>
-        <p>THE PROFESSIONAL RESEARCH PORTAL</p>
+    <div class="logo">
+        <span class="l1">K</span><span class="l2">n</span><span class="l3">o</span><span class="l4">w</span><span class="l5">l</span><span class="l6">e</span>
+    </div>
+
+    <div class="search-wrapper">
+        <script async src="https://cse.google.com/cse.js?cx=73a0c90b382a24a55"></script>
         
-        <div class="gcse-search-wrapper">
-            <script async src="https://cse.google.com/cse.js?cx=73a0c90b382a24a55"></script>
-            <div class="gcse-search"></div>
-        </div>
+        <div class="gcse-search"></div>
+    </div>
+
+    <div class="info-text">
+        Safe Search Engine for Students
     </div>
 
 </body>
