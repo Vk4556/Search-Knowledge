@@ -1,12 +1,52 @@
-<div class="gcse-search-wrapper">
-    <script async src="https://cse.google.com/cse.js?cx=55f9a9f27d7c348f6"></script>
-    <div class="gcse-search"></div>
-</div>
-.gcse-search-wrapper {
-    background: white;
-    border-radius: 10px;
-    padding: 5px;
-    width: 100%;
-    min-height: 40px; /* This makes sure the box is tall enough to see */
-    color: black; /* Google search text is usually black */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Knowledge</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #b21f1f, #fdbb2d); /* Warm orange/red theme */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(12px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            width: 85%;
+            max-width: 600px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 5px; text-transform: uppercase; }
+        p { margin-bottom: 30px; opacity: 0.8; }
+        .gcse-search-wrapper {
+            background: white;
+            border-radius: 12px;
+            padding: 10px;
+            min-height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>SEARCH KNOWLEDGE</h1>
+        <p>The Professional Research Portal</p>
+        
+        <div class="gcse-search-wrapper">
+            <script async src="https://cse.google.com/cse.js?cx=55f9a9f27d7c348f6"></script>
+            <div class="gcse-search"></div>
+        </div>
+    </div>
+
+</body>
+</html>
